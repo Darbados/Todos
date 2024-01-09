@@ -1,0 +1,8 @@
+[flake8]
+max-line-length = 100
+ban-relative-imports=true
+exclude = .git,
+          .idea,
+          .pycharm_helpers,
+          __pycache__,
+          migrations,
